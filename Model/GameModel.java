@@ -3,12 +3,12 @@ package Model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Game {
+public class GameModel {
     private List<Team> teams;
     private int rounds;
     private int pins;
 
-    public Game() {
+    public GameModel() {
         teams = new ArrayList<>();
         teams.add(new Team("Team White", "white"));
         teams.add(new Team("Team Black", "black"));
